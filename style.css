@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans, sans serif";
+  margin: var(--accent);
+  background-image: url(https://funart.pro/uploads/posts/2020-05/1588414403_21-p-shikarnie-raduzhnie-foni-79.jpg);
+}
