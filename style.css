@@ -3,6 +3,24 @@
 }
 body {
   font-family: "Open Sans, sans serif";
-  margin: var(--accent);
+  margin: 0;
   background-image: url(https://funart.pro/uploads/posts/2020-05/1588414403_21-p-shikarnie-raduzhnie-foni-79.jpg);
+}
+.header-navigation {
+  display: block;
+}
+.conteiner {
+  width: 1140 px;
+  margin: auto;
+}
+.header a {
+  text-decoration: none;
+  color: var(--pure-white);
+  color: black;
+}
+.header-logo {
+  float: left;
+  margin-right: 150 px;
+  padding-left: 100 px;
+  font-size: 16px;
 }
