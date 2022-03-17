@@ -1,12 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  width: 1140 px;
   font-family: "Open Sans, sans serif";
-  margin: 0;
-  background-image: url(https://funart.pro/uploads/posts/2020-05/1588414403_21-p-shikarnie-raduzhnie-foni-79.jpg);
+  margin: auto 0;
+  background-image: url(https://i.pinimg.com/originals/8f/8f/ec/8f8fec69b1747063305d1c1399438e21.png);
+  background-repeat: repeat;
 }
 
 .header-navigation {
@@ -17,12 +16,15 @@ body {
   padding: 10px;
   display: flex;
   justify-content: center;
-  background-color: rgb(46, 44, 179);
+  width: 1140 px;
+  margin: auto;
+
+  background-repeat: no-repeat;
 }
 .header a {
   text-decoration: none;
   color: var(--pure-white);
-  color: white;
+  color: black;
 }
 .header-logo {
   font-size: 16px;
@@ -45,4 +47,98 @@ ul {
 .menu-Item {
   display: inline-block;
   padding: 0 px;
+}
+
+.intro {
+  padding: 60 px;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  display: block;
+}
+
+.contacts {
+  margin-bottom: 60px;
+}
+.intro-left {
+  border-radius: 35px;
+  margin-left: 0 px 25px;
+}
+.intro-right {
+  width: 50%;
+  margin-left: 45 px 25 px;
+}
+.contacts {
+  margin-bottom: 60 px;
+}
+.conteiner {
+  width: 1140 px;
+  margin: auto;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30 px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.contacts ul li a {
+  margin: 17px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.skills {
+  margin: 0 px;
+  padding: 30 px;
+  background-color: var(--accent);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15 px;
+  margin: 0 px;
+  padding: 0;
+  list-style: none;
+}
+.skills ul li {
+  margin: 15px;
+}
+.section-skills {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.section-portfolio {
+  display: flex;
+  justify-content: center;
+}
+portfolio-list {
+  display: flex;
 }
