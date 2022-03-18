@@ -12,14 +12,15 @@ body {
   display: block;
 }
 .conteiner {
-  margin: 0 px;
+  margin: 0px;
   padding: 10px;
   display: flex;
   justify-content: center;
-  width: 1140 px;
+  width: 1140px;
   margin: auto;
-
+  background-color: rgb(48, 190, 5);
   background-repeat: no-repeat;
+  color: black;
 }
 .header a {
   text-decoration: none;
@@ -29,7 +30,7 @@ body {
 .header-logo {
   font-size: 16px;
   justify-content: flex-start;
-  margin: 18;
+  margin: 18px;
 }
 .menu {
   padding: 0px 35px;
@@ -46,11 +47,11 @@ ul {
 }
 .menu-Item {
   display: inline-block;
-  padding: 0 px;
+  padding: 0px;
 }
 
 .intro {
-  padding: 60 px;
+  padding: 60px;
 }
 .intro-inner {
   display: flex;
@@ -66,17 +67,17 @@ div {
 }
 .intro-left {
   border-radius: 35px;
-  margin-left: 0 px 25px;
+  margin-left: 0px;
 }
 .intro-right {
   width: 50%;
-  margin-left: 45 px 25 px;
+  margin-left: 45px;
 }
 .contacts {
-  margin-bottom: 60 px;
+  margin-bottom: 60px;
 }
 .conteiner {
-  width: 1140 px;
+  width: 1140px;
   margin: auto;
 }
 h2 {
@@ -91,7 +92,7 @@ h2 {
 .contacts ul {
   display: flex;
   justify-content: center;
-  gap: 30 px;
+  gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -109,16 +110,16 @@ li {
   margin: 0;
 }
 .skills {
-  margin: 0 px;
-  padding: 30 px;
+  margin: 0px;
+  padding: 30px;
   background-color: var(--accent);
 }
 .skills ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15 px;
-  margin: 0 px;
+  gap: 15px;
+  margin: 0px;
   padding: 0;
   list-style: none;
 }
@@ -128,17 +129,42 @@ li {
 .section-skills {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 0px;
 }
 .section-title {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 0px;
 }
 .section-portfolio {
   display: flex;
   justify-content: center;
 }
-portfolio-list {
+.portfolio-list {
   display: flex;
+  list-style: none;
+}
+.portfolio-list img {
+  width: 200px;
+  margin: 15px;
+  height: 200px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+.languages-link {
+  list-style: none;
+}
+.obrazovh {
+  display: flex;
+  justify-content: center;
+}
+.obrazov {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }
