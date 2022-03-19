@@ -26,14 +26,16 @@ body {
   text-decoration: none;
   color: var(--pure-white);
   color: black;
+  padding: 15px 0px 15px 0px;
 }
 .header-logo {
   font-size: 16px;
   justify-content: flex-start;
   margin: 18px;
+  padding: 20px 0px;
 }
 .menu {
-  padding: 0px 35px;
+  padding: 30px 0px;
   margin: 0px 0px 0px 100px;
   list-style: none;
   justify-content: end;
